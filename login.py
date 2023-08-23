@@ -11,7 +11,7 @@ def check_login():
     valid_password = "1234"
     
     if username == valid_username and password == valid_password:
-        messagebox.showinfo("login Succesvol", "Welkom, " + username + "!")
+        messagebox.showinfo("Login Succesvol", "Welkom, " + username + "!")
         login_window.destroy()
         datumwaarde.init()
         #exec(open('datumwaarde.py').read())
